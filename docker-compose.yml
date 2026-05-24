@@ -1,0 +1,20 @@
+services:
+  infinite-canvas:
+    image: "${IMAGE_NAME:-yourdockerhubuser/infinite-canvas}:latest"
+    container_name: infinite-canvas
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # 如需连接宿主机 ComfyUI，把它改成 host.docker.internal:8188
+      # 并在 Linux 下配合 extra_hosts: ["host.docker.internal:host-gateway"]
+      COMFYUI_INSTANCES: "${COMFYUI_INSTANCES:-127.0.0.1:8188}"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - "./runtime/API:/app/API"
+      - "./runtime/data:/app/data"
+      - "./runtime/assets:/app/assets"
+      - "./runtime/output:/app/output"
+      - "./runtime/global_config.json:/app/global_config.json"
+      - "./runtime/history.json:/app/history.json"
