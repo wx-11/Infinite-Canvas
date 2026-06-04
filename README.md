@@ -9,6 +9,8 @@ https://apimart.ai/register?aff=1uyAbb  （包含所有生图模型/视频模型
 
 https://www.fhl.mom/register?aff=86L574B4T2N9  （包含codex和GPT image 2模型）
 
+功能请求/功能更新/视频教程/联系我，都可以在B站评论或私信：https://space.bilibili.com/78652351
+
 ----
 
 【新增了version文件，我每次更新都会更新version的版本号，如果你下载version文件，打开项目后，导航栏的GitHub按键就会提示新版本，如果不想查看更新提示，就删除version文件】
@@ -16,18 +18,32 @@ https://www.fhl.mom/register?aff=86L574B4T2N9  （包含codex和GPT image 2模�
 【A version file has been added. I update the version number with each update. If you download the version file, the GitHub button in the navigation bar will indicate the new version after opening the project. If you don't want to see update notifications, delete the version file.】
 
 ----
-5/21日更新：
-1. 最新做了智能画布，排除一切节点干扰，画面舒适。
-2. 增加了资产库管理
-3. 增加了@图片的功能
 
-May 21st Update:
+支持的功能：
+1. 支持几乎所有OpenAI协议的API/异步协议/Gemini协议/方舟协议
+2. RunningHub的工作流/AI应用/收费模型调用
+3. 火山引擎调用（人脸认证还在修复bug）
+4. Modelscope免费LLM模型和图像模型调用
+5. 即梦CLI调用，可直接调用即梦高级会员的积分，支持文生图/图生图/文生视频/图生视频
+6. 支持调用本地局域网的ComfyUI
+7. 扩展图片/360全景图预览截图/视频帧抽取/循环节点等诸多功能
 
-1. Added a smart canvas to eliminate all node interference for a more comfortable viewing experience.
+--------
 
-2. Added asset library management.
+已经申请著作权，禁止商业用途
 
-3. Added the @image functionality.
+Commercial use is prohibited.
+
+
+* 可以自己使用和公司使用，禁止用于任何形式的修改封装成商业产品，商用须取得授权。
+
+* 根据代码二次开发的软件必须保持开源并注明来源作者
+
+* This software is for personal and company use only, but is prohibited from being modified or packaged into commercial products in any way. Commercial use requires authorization.
+
+* Software developed based on this code must remain open source and the original author must be credited.
+
+--------
 
 <img width="2079" height="665" alt="image" src="https://github.com/user-attachments/assets/8469923b-f7a2-403c-9c37-e6e789211f28" />
 
